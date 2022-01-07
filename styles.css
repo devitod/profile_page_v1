@@ -7,7 +7,7 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: #222;
   background: #f7f5f0;
 }
@@ -70,8 +70,8 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
-  transition: all .5s;
+  border: 3px solid green;
+  transition: all .2s;
 }
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
@@ -86,7 +86,7 @@ header .profile-image:hover {
 } 
 .location {
   background-color: #222;
-  color: yellow;
+  color: rgb(29, 140, 64);
 }
 .card {
   margin: 30px;
@@ -238,3 +238,50 @@ ul li {
   border-radius: 6px;
   transition: all .5s;
 }
+
+/* some code for greenbox2 and whitebox is taken from Treehouse code IE: the index on this project */
+
+.whitebox {
+  background-color: white; 
+  border: #55505C;
+  color: white;
+  list-style-type: none;
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align: left;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  /* transition: all .5s; */
+  background: repeating-linear-gradient( -55deg,
+  ghostwhite,
+  white 15px,
+  rgba(80,80,00,.8) 5px,
+  rgba(80,80,00,.8) 40px);
+}
+
+/* for stripes, some code is from https://css-tricks.com/stripes-css/ */
+
+.amlogo {
+  width: 200px;
+  height: auto;
+  display: block;
+  margin: auto auto;
+}
+
+.brain {
+  width: 200px;
+  height: auto;
+  display: block;
+  margin: auto auto;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.helper {
+  display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+/* Some above code attributed to user: Kizu on jsfiddile http://jsfiddle.net/kizu/4RPFa/4570/ */
